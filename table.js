@@ -423,19 +423,7 @@ function Table (module) {
      *     address.city:           {type:string, default:null}
      *     address.street:         {type:string, default:null}
      *     address.zip:            {type:string, max:9999, min:1000, default:null}
-     *     cc.comments:            {type:string, default:null}
-     *     cc.last_contact.by:     {type:string, default:null}
-     *     cc.last_contact.date:   {type:string, default:null}
-     *     cc.no_call:             {type:string, default:null}
-     *     cc.no_contact:          {type:string, default:null}
-     *     cc.phone_busy:          {type:string, default:null}
-     *     cc.wrong_phone:         {type:string, default:null}
      *     company:                {type:string, default:null}
-     *     dd.branch:              {type:string, default:null}
-     *     dd.crn:                 {type:string, default:null}
-     *     dd.gf:                  {type:string, default:null}
-     *     dd.region:              {type:string, default:null}
-     *     dd.sow:                 {type:string, default:null}
      *     email:                  {type:string, default:null}
      *     lang:                   {type:string, default:null}
      *     name.first:             {type:string, default:null}
