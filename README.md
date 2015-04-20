@@ -9,6 +9,9 @@ Bind-table module for CRUD.
 ### dev
  - nothing yet
 
+### v0.2.3
+ - Removed useless code, updated a comment
+
 ### v0.2.2
  - Updated to Bind `v0.3.1`
 
