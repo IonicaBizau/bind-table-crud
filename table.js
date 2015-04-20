@@ -144,7 +144,6 @@ function Table (module) {
                         context: ".controls",
                         on: [{
                             name: "click",
-                            emit: "requestNewItem",
                             handler: "createItem"
                         }]
                     });
@@ -814,7 +813,7 @@ function Table (module) {
                 Bind.call(self, bindObj, unflattenItem);
             }
 
-            // emit `itemRefresh`
+            // emit `itemRefreshed`
             self.emit ("itemRefreshed", unflattenItem);
         }
     }
