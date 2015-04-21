@@ -224,6 +224,7 @@ function Table (module) {
             case "url":
                 // TODO
         }
+        self.emit("itemRendered", item);
     }
 
     function renderSelector(item) {
@@ -849,7 +850,7 @@ function Table (module) {
                             return console.error ("No document found");
                         }
                         doc = doc[0];
-                        renderSelector.call(self, doc);
+                        render.call(self, doc);
                         selectItem (doc);
                     });
                 }
