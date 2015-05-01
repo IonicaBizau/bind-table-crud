@@ -6,6 +6,9 @@ Bind-table module for CRUD.
 
 ## Change Log
 
+### v0.2.5
+ - Updated to Bind `v0.3.2`
+
 ### v0.2.4
  - Added an `itemRendered` event with the rendered item as the first argument.
 
