@@ -1,6 +1,6 @@
 // dependencies
-var Bind = require ("github/jillix/bind")
-  , Events = require ("github/jillix/events")
+var Bind = require ("github/jxmono/bind")
+  , Events = require ("github/jxmono/events")
   , Sort = require ("./sort")
   ;
 
