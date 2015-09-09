@@ -6,6 +6,9 @@ Bind-table module for CRUD.
 
 ## Change Log
 
+### dev
+ - Added the `self.tableData` variable which contains the last rendered data.
+
 ### v0.3.0
  - transferred module to the new jxMono organization
  - updated Bind to `v0.4.0`, Events to `v0.4.0`

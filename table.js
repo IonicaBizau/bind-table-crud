@@ -391,6 +391,7 @@ function Table (module) {
                 }
         }
 
+        self.tableData = data;
         self.emit("itemsRendered", data);
     }
 
